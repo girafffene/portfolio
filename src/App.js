@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="wrapper">
       <header className="header">
-        <img src={Irene} className="pic-irene" alt="picture of Irene" />
+        <img src={Irene} className="pic-irene" alt="Irene" />
         <p>
           Irene Perez
         </p>
@@ -28,7 +28,7 @@ function App() {
           Front-End Web Developer
         </p>
         
-        <a href="https://github.com/girafffene" target="_blank">
+        <a href="https://github.com/girafffene" target="_blank" rel="noopener noreferrer">
             <FaGithubAlt />
         </a>
 
@@ -57,34 +57,34 @@ function App() {
             With WeTube, we offer synchronyzed playback and a chat feature so you never miss a thing.
           </p>
 
-          <img className="weTube" src={WeTube} />
+          <img className="weTube" src={WeTube} alt="wetube screenshot" />
 
         </div>
 
         <div className="contact">
-          <h4>Get In Touch</h4>
+          <h4 className="contactTitle">Get In Touch</h4>
 
-          <a href="https://demoday.punchcode.org/student/5" target="_blank">
+          <a className="resume" href="https://demoday.punchcode.org/student/5" target="_blank" rel="noopener noreferrer">
             <p>
-            <IoIosPaper/> Resume
+              <IoIosPaper/> Resume
             </p>
           </a>
 
-          <a href="mailto:inreallifeirene@gmail.com">
+          <a className="email" href="mailto:inreallifeirene@gmail.com" rel="noopener noreferrer">
             <p>
               <MdEmail /> inreallifeirene@gmail.com
             </p>
           </a>
 
-          <p>
+          <p className="phone">
             <FiSmartphone /> 702<BsDot />793<BsDot />6054
           </p>
 
-          <a href="https://github.com/girafffene" target="_blank">
+          <a className="github" href="https://github.com/girafffene" target="_blank" rel="noopener noreferrer">
             <FaGithubAlt /> girafffene
           </a>
 
-          <a href="https://www.linkedin.com/in/irene-perez-a65682154/" target="_blank">
+          <a className="linkedin" href="https://www.linkedin.com/in/irene-perez-a65682154/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin /> irene-perez-a65682154
           </a>
 

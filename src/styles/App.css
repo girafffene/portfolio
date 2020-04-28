@@ -59,3 +59,77 @@
   height: 30px;
   width: 50px;
 }
+
+/* beginning of grid styling for contact box */
+.contact {
+  display: inline-grid;
+  grid-template-columns: 1fr 100px 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.contactTitle {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.resume {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.email {
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.github {
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.phone {
+  grid-column-start: 3;
+  grid-column-end: 4;
+
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.linkedin {
+  grid-column-start: 3;
+  grid-column-end: 4;
+
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+/* end of grid styling for contact box */
+
+
+/* start of styling for links */
+/* unvisited link */
+a:link {
+  color: lightcoral;
+}
+
+/* visited link */
+a:visited {
+  color: lightcoral;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: lightcoral;
+}
+/* end of styling for links */
+
