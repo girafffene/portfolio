@@ -1,0 +1,61 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr ;
+  text-align: center;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .pic-irene {
+    animation: pic-irene-spin infinite 20s linear;
+  }
+}
+
+@keyframes pic-irene-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.header {
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: 3;
+
+  grid-row-start: 1;
+  grid-row-end: 2;
+  
+  align-items: center;
+  text-align: center;
+
+  font-size: 25px;
+  color: lightcoral;
+
+  background-color: white;
+
+  height: 600px;
+  width: 400px;
+}
+
+.pic-irene {
+  height: 150px;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+.allOnMe {
+  display: grid;
+  grid-column-start: 4;
+  grid-column-end: 6;
+
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.weTube {
+  height: 30px;
+  width: 50px;
+}
