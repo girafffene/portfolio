@@ -1,135 +1,274 @@
+/* imported Font-Family */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr ;
-  text-align: center;
-}
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .pic-irene {
-    animation: pic-irene-spin infinite 20s linear;
-  }
+  grid-template-areas: 
+    ". . about"
+    "header . projects"
+    ". . bs"
+    "footer . ."
+  ;
 }
-
-@keyframes pic-irene-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
 
 .header {
-  display: grid;
-  grid-column-start: 2;
-  grid-column-end: 3;
+  display:grid;
+  grid-area: header;
+  grid-column-gap: 10px;
+  grid-template-areas: 
+    "name-header picture"
+    "email phone"
+    "linkedin resume"
+  ;
 
-  grid-row-start: 1;
-  grid-row-end: 2;
-  
-  align-items: center;
-  text-align: center;
+  width: 650px;
+  height: 400px;
 
   font-size: 25px;
-  color: lightcoral;
+  color: rgb(70, 70, 70);
 
   background-color: white;
+  background-image: url("../assets/puzzle_piece.jpg");
+  background-position: bottom;
+  background-size: cover;
 
-  height: 600px;
-  width: 400px;
+  border: 1.5px solid rgb(208, 200, 204);
+  border-radius: 10px;
+
+  margin-top: -105px;
+  margin-left: 28px;
+  padding: 15px;
 }
 
 .pic-irene {
+  grid-area: picture;
+
   height: 150px;
   border-radius: 100%;
-  display: inline-block;
+  margin-left: 15px;
+  margin-top: 15px;
+
+  box-shadow: 0 0 100px rgba(208, 200, 204, 1);
 }
 
-.allOnMe {
-  display: grid;
-  grid-column-start: 4;
-  grid-column-end: 6;
+.name-title {
+  grid-area: name-header;
 
-  grid-row-start: 1;
-  grid-row-end: 3;
+  text-shadow: -2px -1px 1px rgb(208, 200, 204);
+  font-family: 'Inconsolata', monospace;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
 }
 
-.weTube {
-  height: 30px;
-  width: 50px;
+.git {
+  position: relative;
+  top: 3px;
+
+  font-size: 20px;
 }
 
-/* beginning of grid styling for contact box */
-.contact {
-  display: inline-grid;
-  grid-template-columns: 1fr 100px 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-}
-
-.contactTitle {
-  grid-column-start: 2;
-  grid-column-end: 3;
-}
-
-.resume {
-  grid-column-start: 2;
-  grid-column-end: 3;
+.email, .phone, .resume, .linkedin {
+  text-shadow: 5px 5px 10px white;
+  font-size: 20px;
 }
 
 .email {
-  grid-column-start: 1;
-  grid-column-end: 2;
-
-  grid-row-start: 3;
-  grid-row-end: 4;
-}
-
-.github {
-  grid-column-start: 1;
-  grid-column-end: 2;
-
-  grid-row-start: 4;
-  grid-row-end: 5;
+  grid-area: email;
 }
 
 .phone {
-  grid-column-start: 3;
-  grid-column-end: 4;
+  grid-area: phone;
+}
 
-  grid-row-start: 3;
-  grid-row-end: 4;
+.resume {
+  grid-area: resume;
 }
 
 .linkedin {
-  grid-column-start: 3;
-  grid-column-end: 4;
-
-  grid-row-start: 4;
-  grid-row-end: 5;
+  grid-area: linkedin;
 }
-/* end of grid styling for contact box */
+
+.about {
+  grid-area: about;
+
+  width: 700px;
+  height: 370px;
+
+  padding: 15px;
+  margin-top: 25px;
+
+  background-color: white;
+  background-image: url("../assets/pink_puzzle.jpg");
+  background-size: cover;
+  background-position-y: -50px;
+
+  border: 1.5px solid rgb(250, 120, 140);
+  border-radius: 10px;
+}
 
 
-/* start of styling for links */
+.about h4 {
+  font-size: 22px;
+  color: rgb(80, 80, 80);
+  
+  margin-top: 47px;
+  margin-left: 150px;
+
+  transform: rotate(3.5deg);
+}
+
+.bio-p {
+  font-size: 15px;
+  line-height: 1.5;
+
+  background-color: rgb(208, 202, 206);
+
+  border: 1px solid rgb(163, 149, 152);
+  border-radius: 10px;
+
+  margin-top: 120px;
+  padding: 10px;
+}
+
+.projects {
+  grid-area: projects;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+  width: 700px;
+  height: 383px;
+
+  margin-top: 38px;
+  padding: 10px;
+
+  overflow-y: scroll;
+  background-image: url("../assets//rose-close-up-pink-flower.jpg");
+  background-color: white;
+  background-position-y: -298px;
+  background-size: cover;
+
+  border: 1.5px solid rgb(208, 200, 204);
+  border-radius: 10px;
+}
+
+.projects h4 {
+  font-size: 22px;
+  color: rgb(80, 80, 80);
+  background-image: url("https://img.pngio.com/8-vintage-labels-vector-png-transparent-svg-onlygfxcom-vintage-labels-png-3000_1620.png");
+}
+
+.project-title {
+  font-size: 17px;
+}
+
+.project-p {
+  grid-area: text;
+
+  font-size: 15px;
+  line-height: 1.5;
+
+  border-radius: 10px;
+
+  padding: 10px;
+
+  background-color: rgb(252, 156, 168);
+}
+
+/*sizing for WeTube screenshot*/
+.weTube {
+  height: 70px;
+  width: 100px;
+
+  transition: transform .2s;
+}
+
+/*effect scales the size up when you hover over the screenshot*/
+.weTube:hover {
+  transform: scale(6);
+}
+
+/* beginning of styling for footer */
+footer {
+  grid-area: footer;
+
+  display: flex;
+  text-align: center;
+  align-items: center;
+
+  width: 700px;
+  height: 200px;
+  padding-left: 220px;
+  padding-bottom: 130px;
+}
+
+#react {
+  color: rgb(101, 219, 250);
+}
+
+#html {
+  color: rgb(240, 102, 50);
+}
+
+#css {
+  color: rgb(8, 120, 188);
+}
+
+#js {
+  color: rgb(255, 203, 61)
+}
+
+#node {
+  color: rgb(86, 158, 74)
+}
+
+#react,
+#html,
+#css,
+#js,
+#node {
+  font-size: 60px;
+  margin: 5px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+/* end of styling for footer *************************************/
+
+
+/* start of styling for links ************************************/
+a {
+  text-decoration: none;
+}
+
 /* unvisited link */
 a:link {
-  color: lightcoral;
+  color: rgb(70, 70, 70);
 }
 
 /* visited link */
 a:visited {
-  color: lightcoral;
+  color: rgb(70, 70, 70);
 }
 
 /* mouse over link */
 a:hover {
-  color: white;
+  color: rgb(139, 0, 97);
 }
 
 /* selected link */
 a:active {
-  color: lightcoral;
+  color: rgb(70, 70, 70);
 }
-/* end of styling for links */
+/* end of styling for links ***************************************/
 
+.icons {
+  position: relative;
+  top: 3px;
+}
