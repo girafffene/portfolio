@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/girafffene.github.io/static/css/main.5859bdf7.chunk.css",
-    "main.js": "/girafffene.github.io/static/js/main.5adf0be4.chunk.js",
-    "main.js.map": "/girafffene.github.io/static/js/main.5adf0be4.chunk.js.map",
-    "runtime-main.js": "/girafffene.github.io/static/js/runtime-main.dd6551b5.js",
-    "runtime-main.js.map": "/girafffene.github.io/static/js/runtime-main.dd6551b5.js.map",
-    "static/js/2.d9821d76.chunk.js": "/girafffene.github.io/static/js/2.d9821d76.chunk.js",
-    "static/js/2.d9821d76.chunk.js.map": "/girafffene.github.io/static/js/2.d9821d76.chunk.js.map",
-    "index.html": "/girafffene.github.io/index.html",
-    "precache-manifest.e0e87fbe3b2faf717e19e31bd059a8cf.js": "/girafffene.github.io/precache-manifest.e0e87fbe3b2faf717e19e31bd059a8cf.js",
-    "service-worker.js": "/girafffene.github.io/service-worker.js",
-    "static/css/main.5859bdf7.chunk.css.map": "/girafffene.github.io/static/css/main.5859bdf7.chunk.css.map",
-    "static/js/2.d9821d76.chunk.js.LICENSE.txt": "/girafffene.github.io/static/js/2.d9821d76.chunk.js.LICENSE.txt",
-    "static/media/WeTube.png": "/girafffene.github.io/static/media/WeTube.e7ff1468.png",
-    "static/media/irene.jpeg": "/girafffene.github.io/static/media/irene.24dce26f.jpeg",
-    "static/media/App.css": "/girafffene.github.io/static/media/rose-close-up-pink-flower.5a57850d.jpg"
+    "main.css": "/portfolio/static/css/main.8af4f645.chunk.css",
+    "main.js": "/portfolio/static/js/main.7e1497d4.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7e1497d4.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.8a145c29.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.8a145c29.js.map",
+    "static/js/2.d9821d76.chunk.js": "/portfolio/static/js/2.d9821d76.chunk.js",
+    "static/js/2.d9821d76.chunk.js.map": "/portfolio/static/js/2.d9821d76.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.ceafb8cdfede80eb21b9153a0205e545.js": "/portfolio/precache-manifest.ceafb8cdfede80eb21b9153a0205e545.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.8af4f645.chunk.css.map": "/portfolio/static/css/main.8af4f645.chunk.css.map",
+    "static/js/2.d9821d76.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d9821d76.chunk.js.LICENSE.txt",
+    "static/media/WeTube.png": "/portfolio/static/media/WeTube.e7ff1468.png",
+    "static/media/irene.jpeg": "/portfolio/static/media/irene.24dce26f.jpeg",
+    "static/media/App.css": "/portfolio/static/media/rose-close-up-pink-flower.5a57850d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.dd6551b5.js",
+    "static/js/runtime-main.8a145c29.js",
     "static/js/2.d9821d76.chunk.js",
-    "static/css/main.5859bdf7.chunk.css",
-    "static/js/main.5adf0be4.chunk.js"
+    "static/css/main.8af4f645.chunk.css",
+    "static/js/main.7e1497d4.chunk.js"
   ]
 }
